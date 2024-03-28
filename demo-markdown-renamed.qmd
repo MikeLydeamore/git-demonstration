@@ -9,13 +9,13 @@ format:
 
 Quarto enables you to weave together content and executable code into a finished document. To learn more about Quarto see <https://quarto.org>.
 
+Make some conflicting text.
+
+Here we go.
+
 Let's make some changes
 
-Extra changes
-
 Extra changes on the special branch
-
-Changes on main to create a non-linear history
 
 ## Running Code
 
