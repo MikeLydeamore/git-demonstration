@@ -1,6 +1,8 @@
 ---
 title: "demo-markdown"
-format: html
+format:
+  html: default
+  pdf: default
 ---
 
 ## Quarto
@@ -8,6 +10,8 @@ format: html
 Quarto enables you to weave together content and executable code into a finished document. To learn more about Quarto see <https://quarto.org>.
 
 Let's make some changes
+
+Extra changes
 
 Extra changes on the special branch
 
