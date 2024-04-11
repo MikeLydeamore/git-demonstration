@@ -29,6 +29,8 @@ Here are some changes!
 
 You can add options to executable code like this 
 
+Let's add some text after the executable code explanation.
+
 ```{r}
 #| echo: false
 #| message: false
