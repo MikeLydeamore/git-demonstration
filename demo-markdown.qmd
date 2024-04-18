@@ -18,7 +18,6 @@ Extra changes on the special branch
 More changes on the web interface
 
 Even more changes on the web interface
-Some changes.
 
 ## Running Code
 
