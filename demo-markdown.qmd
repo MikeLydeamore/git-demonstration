@@ -19,6 +19,8 @@ More changes on the web interface
 
 Even more changes on the web interface
 
+Some changesi n the past to the opening section
+
 ## Running Code
 
 When you click the **Render** button a document will be generated that includes both content and the output of embedded code. You can embed code like this:
