@@ -1,6 +1,6 @@
 ---
 title: "demo-markdown"
-format: html
+format: pdf
 bibliography: references.bib
 csl: bulletin-du-centre-detudes-medievales-dauxerre.csl
 ---
