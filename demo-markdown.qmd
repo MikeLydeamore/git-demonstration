@@ -1,13 +1,17 @@
 ---
 title: "demo-markdown"
 format: html
+bibliography: references.bib
+csl: bulletin-du-centre-detudes-medievales-dauxerre.csl
 ---
 
 ## Quarto
 
-Quarto enables you to weave together content and executable code into a finished document. To learn more about Quarto see <https://quarto.org>.
+Quarto enables you to weave together content and executable code into a finished document. To learn more about Quarto see <https://quarto.org> @lowthianRedesigningEmergencyPatient2015.
 
-Make some conflicting text.
+Make some conflicting text @Lydeamore1985.
+
+Lydeamore found some interesting results @zachreson2021risk.
 
 Here we go.
 
@@ -19,6 +23,7 @@ More changes on the web interface
 
 Even more changes on the web interface
 Some changes.
+Local changes
 
 ## Running Code
 
@@ -26,13 +31,30 @@ When you click the **Render** button a document will be generated that includes 
 
 Here are some changes!
 
+### References
+
+::: {#refs}
+:::
+
 
 Adding in some changes on the web interface.
 ```{r}
 1 + 1
 ```
 
+```{r}
+#| echo: false
+#| label: fig-mtcars
+#| fig-cap: "Scatterplot of mtcars"
+
+plot(mtcars)
+```
+
+As can be seen in @fig-mtcars
+
 You can add options to executable code like this 
+
+Thanks to the Tidyverse team @tidyverse
 
 ```{r}
 #| echo: false
@@ -41,3 +63,5 @@ You can add options to executable code like this
 ```
 
 The `echo: false` option disables the printing of code (only output is displayed).
+
+# Reference
